@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+h1{
+  color: #40a9ff;
+}
+
+.display {
+  margin: 20px auto;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #1890ff; 
+  border-radius: 5px;
+  text-align: right;
+  font-size: 2em;
+  background-color: #f0f0f0;
+  color: #1890ff; 
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 75px);
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+.keypad button {
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #1890ff; 
+  color: #fff; 
+  transition: background-color 0.2s;
+}
+
+.keypad button:hover {
+  background-color: #40a9ff; 
+}
